@@ -1,0 +1,47 @@
+{
+    "chasis": {
+        "talons": [
+            {
+                "name": "frontLeft",
+                "port": 1,
+                "limiter": 0.75,
+                "neutralMode": "Brake",
+                "inverted": false
+            },
+            {
+                "name": "frontRight",
+                "port": 2,
+                "limiter": 0.75,
+                "neutralMode": "Brake",
+                "inverted": false
+            }
+        ],
+        "victors": [
+            {
+                "name": "backLeft",
+                "port": 3,
+                "limiter": 0.75,
+                "neutralMode": "Brake",
+                "inverted": false
+            },
+            {
+                "name": "backRight",
+                "port": 4,
+                "limiter": 0.75,
+                "neutralMode": "Brake",
+                "inverted": false
+            }
+        ]
+    },
+    "shooter": {
+        "talons":[
+            {
+                "name": "shooterMotor",
+                "port": 5,
+                "neutralMode": "Coast",
+                "inverted": false
+            }
+
+        ]
+    }
+}
