@@ -31,17 +31,22 @@
                 "neutralMode": "Brake",
                 "inverted": false
             }
+        ],
+        "ahrs": [
+            {
+                "name": "NavX",
+                "port": "MXP"
+            }
         ]
     },
     "shooter": {
-        "talons":[
+        "talons": [
             {
                 "name": "shooterMotor",
                 "port": 5,
                 "neutralMode": "Coast",
                 "inverted": false
             }
-
         ]
     }
 }
